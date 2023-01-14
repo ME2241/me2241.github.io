@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammet Emrullah Karaca</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function displayDate() {
+          document.getElementById("demo").innerHTML = Date();
+        }
+        </script>
 </head>
 
 
@@ -31,9 +36,12 @@
      <!--! Header End -->  
 
      <!--! Section Start -->
-     <section class="container">
-        <p>Benimle iletişime geçmek için sağ üst köşede bulunan Whatsapp butonuna tıklayabilirsiniz</p>
+     <section class="container" align="center">
+        <p id="demo">Benimle iletişime geçmek için sağ üst köşede bulunan Whatsapp butonuna tıklayabilirsiniz</p>
+        <button type="button" onclick="displayDate()">Tarihi Görmek İçin Tıklayınız</button>
         <div class="links">
+
+            
             <a href="https://www.lisansalisveris.com">lisansalisveris</a>
             <a href="https://panel.stokbayim.com/giris">stokbayim</a>
         </div>
